@@ -14,3 +14,22 @@ Then, for each TODO 3 to the end of the exercise, you will do the following:
    -- Implement and test the method.
 
 We will code the first few TODOs together.
+
+    p1 = Point(30, 18)
+    print()
+    print('Expected for p1: 30 18')
+    print('Actual for p1:  ', p1.x, p1.y)
+
+    p2 = Point(100, -40)
+    print()
+    print('Expected for p2: 100 -40')
+    print('Actual for p2:  ', p2.x, p2.y)
+    print('Expected for p1: 30 18')
+    print('Actual for p1:  ', p1.x, p1.y)
+
+    p1.y = 999
+    print()
+    print('Expected for p1: 30 999')
+    print('Actual for p1:  ', p1.x, p1.y)
+    print('Expected for p2: 100 -40')
+    print('Actual for p2:  ', p2.x, p2.y)
